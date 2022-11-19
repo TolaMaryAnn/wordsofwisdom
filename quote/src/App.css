@@ -35,6 +35,7 @@
     align-items: center;
     height: 500px;
     font-family: cursive;
+    font-size: 20px;
 }
 
 .button{
@@ -107,10 +108,30 @@
         transform: translate3d(0,0,0);
     }
 }
-@media only screen and (max-width:600){
+@media only screen and (max-width:600px){
     .card{
         width:80%;
         height: 30%;
 
+    }
+    .heading{
+        font-size: 15px;
+        height: 200px;
+    }
+    .button{
+        position: relative;
+        text-decoration: none;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 100px;
+        width: 110px;
+        opacity: 1;
+        background-color: aliceblue;
+        border: 1px solid blue;
+    
     }
 }
